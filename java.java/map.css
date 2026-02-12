@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vishal Mega Mart - Marketing Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #00539C;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .content {
+      padding: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 80vh;
+      border: none;
+      display: block;
+      margin-top: 20px;
+    }
+    .button-group {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .button-group a {
+      text-decoration: none;
+    }
+    .button-group button {
+      padding: 10px 20px;
+      background-color: #00539C;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .button-group button:hover {
+      background-color: #003f7f;
+    }
+    .footer {
+      text-align: center;
+      background-color: #eee;
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🛍 Vishal Mega Mart - Mall Marketing Dashboard</h1>
+  </header>
+
+  <div class="content">
+    <h2>📍 Explore Our Segmented Insights</h2>
+    <p>Select a category to explore targeted marketing strategies based on customer data.</p>
+
+    <div class="button-group">
+      <a href="premium.html"><button>🌟 Premium Offers</button></a>
+      <a href="seasonal.html"><button>🛒 Seasonal Goods</button></a>
+      <a href="lowsales.html"><button>⚠ Low Sales Alerts</button></a>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Vishal Mega Mart | Marketing & Analytics Team
+  </div>
+</body>
+</html>
