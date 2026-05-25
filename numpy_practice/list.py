@@ -41,8 +41,14 @@ print(a)
 b= np.full((5,3),7)
 print(b)
 c = a + b
-print(c)'''
+print(c)
 
 a = np.ones((5,5))
 det_a = np.linalg.det(a)
-print(det_a)
+print(det_a)'''
+
+a = np.arange(1,31).reshape(6,5)
+print(a) 
+print(a[2:4,0:2])
+print(a[[0,1,2,3],[1,2,3,4]])
+print(a[[0,4,5],3:5])
