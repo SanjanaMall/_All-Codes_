@@ -47,10 +47,15 @@ print(drinks.mean(numeric_only = True))
 
 order = pd.read_csv('http://bit.ly/chiporders', sep = '\t')
 order.groupby('item_name')['quantity'].mean().plot(kind='bar')
-plt.show()'''
+plt.show()
 
 drinks = pd.read_csv('http://bit.ly/drinksbycountry')
 print(drinks.columns)
 print(drinks.mean(numeric_only = True))
-drinks.groupby('continent')['beer_servings'].mean().plot(kind='bar')
+### graph options......hist, line, bar, pie, barh, box, hexbin
+drinks.groupby('continent')['beer_servings'].mean().plot(kind='bar') 
 plt.show()
+print(drinks.continent.value_counts(normalize=True))'''
+
+ufo = pd.read_csv('http://bit.ly/uforeports')
+print(ufo.tail())
